@@ -1,14 +1,13 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+
+import { HeaderComponent } from './header/header.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  imports: [HeaderComponent, NavBarComponent],
 })
-export class AppComponent {
-  title = 'muc-112-web-12130614-final';
-}
+export class AppComponent {}
