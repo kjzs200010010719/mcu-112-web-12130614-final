@@ -1,11 +1,76 @@
-:host {
+div {
   display: block;
 }
 
-nav > a {
+body {
+  font-family: source sans pro, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+}
+
+.home-page .banner {
+  background: #5cb85c;
+  box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.3),
+    inset 0 -8px 8px -8px rgba(0, 0, 0, 0.3);
+}
+
+.banner {
   color: #fff;
   padding: 2rem;
   margin-bottom: 2rem;
+}
+
+.logo-font {
+  font-family: titillium web, sans-serif;
+}
+
+.banner h1 {
+  margin-bottom: 0;
+}
+
+.home-page .banner h1 {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 700 !important;
+  text-align: center;
+  font-size: 3.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.home-page .banner p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300 !important;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  line-height: 1.1;
+  color: inherit;
+}
+
+p {
+  display: block;
+  margin-top: 0;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 nav {
