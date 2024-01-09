@@ -187,3 +187,44 @@ a:not([href]) {
 .nav-pills .nav-link.active {
   cursor: default;
 }
+
+.col-md-3 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.home-page .sidebar {
+  padding: 5px 10px 10px;
+  background: #f3f3f3;
+  border-radius: 4px;
+}
+
+.home-page .sidebar p {
+  margin-bottom: 0.2rem;
+}
+
+.tag-pill[_ngcontent-ng-c2070197846] {
+  cursor: pointer;
+}
+
+.tag-default {
+  color: #fff !important;
+  font-size: 0.8rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  white-space: nowrap;
+  margin-right: 3px;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+  background-color: #818a91;
+}
+
+.tag-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
