@@ -1,78 +1,37 @@
-div {
+:host {
   display: block;
-}
-
-.container {
-  max-width: 1150px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-body {
-  font-family: source sans pro, sans-serif;
-  font-size: 0.9rem;
-  line-height: 0.01;
-  color: #373a3c;
-  background-color: #fff;
-}
-
-.pull-xs-right {
-  float: right !important;
-}
-
-.navbar {
-  border-radius: 0.25rem;
-  position: relative;
-  padding: 1.25rem 1rem;
-}
-
-.navbar-brand {
-  font-weight: bold;
-  font-family: titillium web, sans-serif;
-  font-size: 1.5rem !important;
-  padding-top: 0 !important;
-  margin-right: 2rem !important;
-  color: #5cb85c !important;
-  float: left;
-  padding-bottom: 0.25rem;
-}
-
-a {
-  text-decoration: none;
-  touch-action: manipulation;
-  background-color: transparent;
-}
-
-.nav {
   margin: 0;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+  padding: 0 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.navbar-brand {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  color: #5cb85c;
 }
 
 ul {
-  display: block;
+  display: flex;
+  list-style: none;
+  gap: 15px;
 }
 
-.navbar-nav .nav-item {
-  float: left;
-}
-
-.navbar-nav .nav-item + .nav-item {
-  margin-left: 1rem;
-}
-
-.navbar-nav .nav-link {
-  display: block;
-  padding-top: 0.425rem;
-  padding-bottom: 0.425rem;
-}
-
-.navbar-light .navbar-nav .nav-link {
+ul li > a {
   color: rgba(0, 0, 0, 0.3);
-  display: block;
-  padding-top: 0.425rem;
-  padding-bottom: 0.425rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+ul li a.active {
+  color: rgba(0, 0, 0, 0.7);
 }
